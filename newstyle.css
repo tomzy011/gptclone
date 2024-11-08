@@ -1,0 +1,101 @@
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.house span{
+    float: right;
+}
+.logo{
+    display: inline;
+    font-size: 1.3em;
+}
+.btn{
+    font-size: 0.9em;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    padding: 4px 10px;
+    
+
+}
+.login{
+    background-color: black;
+    color: white;
+}
+#page{
+    justify-items: center;
+    margin:  200px auto;
+    
+}
+
+
+.search{
+    width: 800px;
+    padding: 15px 0px;
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.046);
+
+}
+.help{
+    font-size: 1.5em;
+    overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+
+.promptbtn{
+    padding: 10px;
+    margin: 5px;
+    border:1px solid rgba(0, 0, 0, 0.158) ;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.promptbtn i{
+    font-size: 0.8em;
+
+}
+.promptbtn:hover{ 
+    background-color: #00000017;
+}
+.fa-book{
+    color: blue;
+}
+.fa-gift{
+    color: red;
+}
+.fa-code{
+    color: orangered;
+}
+.fa-lightbulb{
+    color: green;
+}
+.fa-clipboard{
+    color: brown;
+}
+.box{
+    margin:10px;
+}
+#icon{
+    margin-left: -40px;
+    border-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.126);
+    padding: 7px;
+}
+.search::placeholder{
+    font-size: 1.2em;
+
+}
+.footer{
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+    @keyframes typing{
+        from{ width: 0%;}
+        to{ width: 35%;}
+    }
